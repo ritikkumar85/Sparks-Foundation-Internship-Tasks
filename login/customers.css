@@ -1,0 +1,33 @@
+table {
+    margin: 0 auto;
+    font-size: var(--size-base);
+    border: 1px double var(--clr-slate600);
+}
+
+h1 {
+    text-align: center;
+    color: var(--clr-slate400);
+    font-size: var(--size-5xl);
+    text-transform: capitalize;
+    text-decoration:underline;
+    margin-bottom: 1rem;
+}
+
+
+
+th,
+td {
+    color: var(--clr-slate400);
+    font-weight: bold;
+    border: 1px solid var(--clr-dark);
+    padding: 10px 50px;
+    text-align: center;
+    background-color: var(--clr-slate600);
+    font-size: var(--size-base);
+}
+
+
+td {
+    background-color: var(--clr-slate800);
+    font-weight: lighter;
+}
